@@ -73,12 +73,13 @@ img {
     color: #fff;
     text-decoration: none;
     border: none;
-    transition: all 1s;
+  
 }
 
 .button:hover {
     background-color: purple;
     color: #fff;
+      transition: all 1s;
 }
 
 .content {

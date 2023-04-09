@@ -76,11 +76,6 @@ img {
 
 }
 
-.button:hover {
-    background-color: purple;
-    color: #fff;
-    transition: all 1s;
-}
 
 .content {
     padding-left: calc(50% - 945px/2);

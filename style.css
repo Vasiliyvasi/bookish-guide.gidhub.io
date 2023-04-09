@@ -73,10 +73,16 @@ img {
     color: #fff;
     text-decoration: none;
     border: none;
+    transition: all 1s;
+}
+
+.button:hover {
+    background-color: purple;
+    color: #fff;
 }
 
 .content {
-    padding-left: calc(50% - 911px/2);
+    padding-left: calc(50% - 945px/2);
     padding-right: calc(50% - 911px/2);
 }
 
@@ -148,17 +154,17 @@ img {
 
 }
 
-.heading_1{
-    
-        position: relative;
-        width: 141px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 45px;
-        color: #646464;
-        margin-top: -153px;
-    
+.heading_1 {
+
+    position: relative;
+    width: 141px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    color: #646464;
+    margin-top: -153px;
+
 }
 
 .footer {
@@ -221,6 +227,7 @@ img {
     text-transform: uppercase;
     transition: all 1s;
 }
+
 .student_new:hover {
     background-color: purple;
     color: white;
@@ -529,7 +536,7 @@ img {
 .block {
 
     position: relative;
-    width: 500px;
+    width: 100%;
     height: 418px;
     border: 1px solid #213B7E;
     background: #FFFFFF;
@@ -542,7 +549,7 @@ img {
 
 .block1 {
     display: block;
-    
+
 }
 
 
@@ -562,7 +569,7 @@ img {
     width: 444px;
     height: 55px;
     border: 1px solid #808080;
-    margin-left: 28px;
+    margin-left: 19px;
     margin-top: 36px;
     display: flex;
     flex-direction: column;
@@ -583,14 +590,14 @@ img {
     border: 0px;
     border-color: red;
     outline: none
-
 }
 
 .block_2 {
     width: 444px;
     height: 55px;
     border: 1px solid #808080;
-    margin-left: 28px;
+    margin-left: 18px;
+    margin-right: 21px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;

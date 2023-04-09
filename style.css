@@ -219,6 +219,12 @@ img {
     border-radius: 20px;
     padding: 3px 3px 1px 5px;
     text-transform: uppercase;
+    transition: background-color 1s;
+}
+.student_new:hover {
+    background-color: purple;
+    color: white;
+
 }
 
 .student_name {

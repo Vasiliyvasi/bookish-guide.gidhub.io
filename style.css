@@ -76,10 +76,6 @@ img {
   
 }
 
-.button:hover {
-    background-color: purple;
-    color: #fff;
-      transition: all 1s;
 }
 
 .content {
